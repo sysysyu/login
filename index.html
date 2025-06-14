@@ -1,96 +1,62 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2113.5">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6d6d6d; -webkit-text-stroke: #6d6d6d}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #6b0001; -webkit-text-stroke: #6b0001}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #fb0007; -webkit-text-stroke: #fb0007}
-    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #0000ff; -webkit-text-stroke: #0000ff}
-    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; color: #4d5055; -webkit-text-stroke: #4d5055}
-    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000; min-height: 16.0px}
-    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Menlo; -webkit-text-stroke: #000000}
-    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Hiragino Sans'; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none; background-color: #ecf1f7}
-    span.s2 {font-kerning: none; color: #fb0007; background-color: #ecf1f7; -webkit-text-stroke: 0px #fb0007}
-    span.s3 {font-kerning: none; color: #2a2a2a; background-color: #ecf1f7; -webkit-text-stroke: 0px #2a2a2a}
-    span.s4 {font-kerning: none; color: #000000; background-color: #ecf1f7; -webkit-text-stroke: 0px #000000}
-    span.s5 {font-kerning: none; color: #0000ff; background-color: #ecf1f7; -webkit-text-stroke: 0px #0000ff}
-    span.s6 {font-kerning: none; color: #6b0001; background-color: #ecf1f7; -webkit-text-stroke: 0px #6b0001}
-    span.s7 {font: 14.0px 'Hiragino Sans'; font-kerning: none; color: #000000; background-color: #ecf1f7; -webkit-text-stroke: 0px #000000}
-    span.s8 {font: 14.0px 'Hiragino Sans'; font-kerning: none; background-color: #ecf1f7}
-    span.s9 {font-kerning: none}
-    span.s10 {font: 14.0px 'Hiragino Sans'; font-kerning: none; color: #0000ff; background-color: #ecf1f7; -webkit-text-stroke: 0px #0000ff}
-    span.s11 {font: 14.0px Menlo; font-kerning: none; background-color: #ecf1f7}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ログイン</title>
+    <!-- Tailwind CSS CDNを読み込む -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 外部CSSファイルを読み込む -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE</span><span class="s2"> html</span><span class="s1">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">html</span><span class="s4"> </span><span class="s2">lang</span><span class="s3">=</span><span class="s5">"ja"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p3"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s1">charset</span><span class="s3">=</span><span class="s5">"UTF-8"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">meta</span><span class="s4"> </span><span class="s2">name</span><span class="s3">=</span><span class="s1">"viewport"</span><span class="s4"> </span><span class="s2">content</span><span class="s3">=</span><span class="s1">"width=device-width, initial-scale=1.0"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s1">title</span><span class="s3">&gt;</span><span class="s7">ログイン</span><span class="s3">&lt;/</span><span class="s1">title</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- Tailwind CSS CDN</span><span class="s8">を読み込む</span><span class="s1"> --&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"https://cdn.tailwindcss.com"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- </span><span class="s8">外部</span><span class="s1">CSS</span><span class="s8">ファイルを読み込む</span><span class="s1"> --&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">link</span><span class="s4"> </span><span class="s2">rel</span><span class="s3">=</span><span class="s1">"stylesheet"</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"css/style.css"</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">head</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s3">&lt;</span><span class="s6">body</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center min-h-screen p-4"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"bg-white p-8 rounded-2xl shadow-xl w-full max-w-md"</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">h2</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-3xl font-bold text-center text-gray-800 mb-8"</span><span class="s3">&gt;</span><span class="s7">ログイン</span><span class="s3">&lt;/</span><span class="s6">h2</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">form</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"loginForm"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"space-y-6"</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">label</span><span class="s4"> </span><span class="s2">for</span><span class="s3">=</span><span class="s1">"username"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-700 text-sm font-semibold mb-2"</span><span class="s3">&gt;</span><span class="s7">ユーザー名またはメールアドレス</span><span class="s3">&lt;/</span><span class="s6">label</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">input</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">type</span><span class="s3">=</span><span class="s5">"text"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">id</span><span class="s3">=</span><span class="s5">"username"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">name</span><span class="s3">=</span><span class="s5">"username"</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s2">placeholder</span><span class="s3">=</span><span class="s1">"</span><span class="s8">例</span><span class="s1">: user@example.com"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">required</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">label</span><span class="s4"> </span><span class="s2">for</span><span class="s3">=</span><span class="s1">"password"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"block text-gray-700 text-sm font-semibold mb-2"</span><span class="s3">&gt;</span><span class="s7">パスワード</span><span class="s3">&lt;/</span><span class="s6">label</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&lt;</span><span class="s6">input</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">type</span><span class="s3">=</span><span class="s5">"password"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">id</span><span class="s3">=</span><span class="s5">"password"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">name</span><span class="s3">=</span><span class="s5">"password"</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                    </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">placeholder</span><span class="s3">=</span><span class="s5">"</span><span class="s10">パスワードを入力してください</span><span class="s5">"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                    </span></span><span class="s2">required</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">button</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s2">type</span><span class="s3">=</span><span class="s5">"submit"</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">                </span></span><span class="s2">class</span><span class="s3">=</span><span class="s1">"w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 shadow-md transform hover:scale-105"</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">                </span></span><span class="s8">ログイン</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;/</span><span class="s6">button</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">form</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">div</span><span class="s4"> </span><span class="s2">id</span><span class="s3">=</span><span class="s1">"messageBox"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-6 p-3 rounded-lg text-center hidden"</span><span class="s3">&gt;</span></p>
-<p class="p5"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s1">&lt;!-- </span><span class="s8">メッセージが表示されます</span><span class="s1"> --&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;</span><span class="s6">p</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"mt-8 text-center text-gray-600 text-sm"</span><span class="s3">&gt;</span></p>
-<p class="p8"><span class="s11"><span class="Apple-converted-space">            </span></span><span class="s1">アカウントをお持ちでないですか？</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">            </span></span><span class="s3">&lt;</span><span class="s6">a</span><span class="s4"> </span><span class="s2">href</span><span class="s3">=</span><span class="s1">"#"</span><span class="s4"> </span><span class="s2">class</span><span class="s3">=</span><span class="s1">"text-blue-600 hover:underline font-medium"</span><span class="s3">&gt;</span><span class="s7">新規登録</span><span class="s3">&lt;/</span><span class="s6">a</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">        </span></span><span class="s3">&lt;/</span><span class="s6">p</span><span class="s3">&gt;</span></p>
-<p class="p7"><span class="s1"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;/</span><span class="s6">div</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
-<p class="p5"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s1">&lt;!-- </span><span class="s8">外部</span><span class="s1">JavaScript</span><span class="s8">ファイルを読み込む</span><span class="s1"> --&gt;</span></p>
-<p class="p4"><span class="s4"><span class="Apple-converted-space">    </span></span><span class="s3">&lt;</span><span class="s6">script</span><span class="s4"> </span><span class="s2">src</span><span class="s3">=</span><span class="s1">"js/script.js"</span><span class="s3">&gt;&lt;/</span><span class="s6">script</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">body</span><span class="s3">&gt;</span></p>
-<p class="p2"><span class="s3">&lt;/</span><span class="s1">html</span><span class="s3">&gt;</span></p>
-<p class="p6"><span class="s9"></span><br></p>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center min-h-screen p-4">
+    <div class="bg-white p-8 rounded-2xl shadow-xl w-full max-w-md">
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">ログイン</h2>
+ 
+        <form id="loginForm" class="space-y-6">
+            <div>
+                <label for="username" class="block text-gray-700 text-sm font-semibold mb-2">ユーザー名またはメールアドレス</label>
+                <input
+                    type="text"
+                    id="username"
+                    name="username"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                    placeholder="例: user@example.com"
+                    required
+                >
+            </div>
+ 
+            <div>
+                <label for="password" class="block text-gray-700 text-sm font-semibold mb-2">パスワード</label>
+                <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+                    placeholder="パスワードを入力してください"
+                    required
+                >
+            </div>
+ 
+            <button
+                type="submit"
+                class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition duration-300 shadow-md transform hover:scale-105"
+            >
+                ログイン
+            </button>
+        </form>
+ 
+        <div id="messageBox" class="mt-6 p-3 rounded-lg text-center hidden">
+            <!-- メッセージが表示されます -->
+        </div>
+ 
+        <p class="mt-8 text-center text-gray-600 text-sm">
+            アカウントをお持ちでないですか？
+            <a href="#" class="text-blue-600 hover:underline font-medium">新規登録</a>
+        </p>
+    </div>
+ 
+    <!-- 外部JavaScriptファイルを読み込む -->
+    <script src="js/script.js"></script>
 </body>
 </html>
